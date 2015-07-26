@@ -1,0 +1,23 @@
+{
+    "name": "mindweb/redirection-resolvers",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Czołnowski",
+            "email": "marcin@czolnowski.net"
+        }
+    ],
+    "require": {
+        "mindweb/subscriber": "dev-master",
+        "mindweb/recognizer": "dev-master",
+        "mindweb/persist": "dev-master",
+        "mindweb/resolve": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mindweb\\RedirectionResolvers\\": "src"
+        }
+    }
+}
